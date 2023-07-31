@@ -1375,15 +1375,12 @@ $class-name: cards_wrap;
 /* ________________________________gallery________________________________ */
 
 .card_1{
-  border: 1px solid #ccc;
+    border: 1px solid #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-radius: 8px; */
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     width: auto;
     margin: 0 auto;
-    /* background-color: #fff; */
     background: rgba(  255, 255, 255, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4.5px );
@@ -1403,7 +1400,7 @@ $class-name: cards_wrap;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     width: 47%;
     min-height: 220px;
-   margin-left: 20px;
+    margin-left: 20px;
     /* background-color: #fff; */
     background: rgba(  255, 255, 255, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -1459,4 +1456,23 @@ $class-name: cards_wrap;
   justify-content: center;
   padding-left: 30px;
   padding-right: 30px;
+}
+.card_a {
+  padding-left: 50px;
+  padding-right: 50px;
+   
+}
+.card_a h3 {
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: 0 auto;
+  background: rgba(  255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+ -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
